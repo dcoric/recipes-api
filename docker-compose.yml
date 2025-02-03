@@ -16,7 +16,6 @@ services:
       - DB_NAME=django
       - DB_USER=postgres
       - DB_PASSWORD=postgres
-      - DB_PORT=5432
     depends_on:
       - db
 
